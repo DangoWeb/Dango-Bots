@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+title: Dango Bots
 nav_order: 1
-description: "Learn and Teach Minecraft with free Guides and Downloads from DangoMC - a Community Powered Minecraft server for Bedrock and Java."
+description: "Blazing fast Discord Bot creation"
 permalink: /
 ---
 
