@@ -1,99 +1,45 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Learn and Teach Minecraft with free Guides and Downloads from DangoMC - a Community Powered Minecraft server for Bedrock and Java."
+permalink: /
+---
+
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="stylesheet" data-aload="../styles/fonts.css">
-    <link rel="shortcut icon" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="www/styles/styles.css">
+    <link rel="stylesheet" data-aload="www/styles/fonts.css">
+    <link rel="shortcut icon" href="favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="cleartype" content="on">
     <meta name="MobileOptimized" content="320">
     <meta name="HandheldFriendly" content="True">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="description" content="Slideout.js is a touch slideout navigation menu for your mobile web apps.">
     <meta name="keywords" content="slideout, offcanvas, javascript, menu, touch">
-    <meta name="author" content="Mango">
-    <meta property="twitter:card" content="summary">
-    <meta property="twitter:site" content="@getmango">
-    <meta property="twitter:title" content="Slideout.js">
-    <meta property="twitter:description" content="Slideout.js is a touch slideout navigation menu for your mobile web apps.">
-    <meta property="twitter:url" content="https://slideout.js.org">
-    <title>Slideout.js - A touch slideout navigation menu for your mobile web apps.</title>
-    <style>
-body {
-  min-height: 100vh;
-}
-
-.slideout-menu {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  z-index: 0;
-  width: 256px;
-  height: 100%;
-  min-height: 100vh;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  display: block;
-}
-
-.slideout-move.slideout-menu {
-  z-index: 3;
-  will-change: transform;
-}
-
-.slideout-move.slideout-panel {
-  position: relative;
-  z-index: 1;
-  will-change: transform;
-}
-
-.slideout-move.slideout-menu-left {
-  left: -256px;
-}
-
-.slideout-move.slideout-menu-right {
-  right: -256px;
-}
-
-.slideout-panel {
-  background-color: #FFF; /* A background-color is required */
-  min-height: 100vh;
-}
-
-.slideout-dimmer {
-  visibility: hidden;
-  opacity: 0;
-  z-index: -1;
-  pointer-events: none;
-  background-color: rgba(0,0,0,.5);
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.slideout-open,
-.slideout-open body,
-.slideout-open .slideout-panel {
-  overflow: hidden;
-}
-
-.slideout-open .slideout-menu {
-  display: block;
-}
-
-.slideout-open .slideout-dimmer {
-  visibility: visible;
-  opacity: 1;
-  z-index: 2;
-}
-    </style>
+    <meta name="author" content="Dango Web Solutions">
+    <meta name="title" content="Dango Bots">
+    <meta name="theme-color" content="#303136">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#303136">
+    <meta name="msapplication-navbutton-color" content="#303136">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bots.dangoweb.ga/">
+    <meta property="og:title" content="Dango Bots">
+    <meta property="og:description" content="Blazing fast Discord Bot creation">
+    <meta property="og:image" content="https://bots.dangoweb.ga/banner.gif">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bots.dangoweb.ga/">
+    <meta property="twitter:title" content="Dango Bots">
+    <meta property="twitter:description" content="Blazing fast Discord Bot creation">
+    <meta property="twitter:image" content="https://bots.dangoweb.ga/banner.gif">
+    <meta name="description" content="Blazing fast Discord Bot creation">
+    <title>Dango Bots | Blazing fast Discord Bot creation</title>
   </head>
   <body>
-
     <nav id="menu" class="menu">
       <section class="menu-section">
         <h3 class="menu-section-title">Docs</h3>
@@ -105,7 +51,6 @@ body {
           <li><a href="https://github.com/mango/slideout#faq" target="_blank">FAQ</a></li>
         </ul>
       </section>
-
       <section class="menu-section">
         <h3 class="menu-section-title">Slideout</h3>
         <ul class="menu-section-list">
@@ -116,26 +61,33 @@ body {
         </ul>
       </section>
     </nav>
-
     <main id="main" class="panel">
       <header class="panel-header">
         <a href="https://github.com/mango/slideout" target="_blank" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
         <button class="btn-hamburger js-slideout-toggle">
           <span class="tooltip">Open slideout</span>
         </button>
-        <h1 class="title">Slideout.js</h1>
-        <h2 class="subtitle">A touch slideout navigation menu for your mobile web apps.</h2>
+	<br /><br /><br /><br />
+	<img src="favicon.ico" height="100px" />
+        <h1 class="title">Dango Bots</h1>
+        <h2 class="subtitle">Blazing fast Discord Bot creation - Bot Name, Prefix, and Profile Picture is all that is needed to get started. Cool Bot addons like Music, Giveaways, Tickets, and more are available.</h2>
         <div class="panel-actions">
           <a href="https://github.com/mango/slideout/releases/" class="btn btn-download">Download</a>
           <a href="https://github.com/mango/slideout" target="_blank" class="btn btn-fork">Fork it</a>
+    	  <div class="svg-wrapper">
+            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+              <rect id="shape" height="40" width="150" />
+              <div id="text">
+                <a href=""><span class="spot"></span>Button 1</a>
+              </div>
+   	    </svg>
+    	  </div>
         </div>
       </header>
-
       <div class="panel-demo iphone">
-        <img data-aload="../assets/poster.png">
-        <video poster="../assets/poster.png" data-aload="../assets/demo.webm" type="video/webm" loop autoplay></video>
+        <img data-aload="www/assets/poster.png">
+        <video poster="www/assets/poster.png" data-aload="www/assets/demo.webm" type="video/webm" loop autoplay></video>
       </div>
-
       <section class="box">
         <h2 class="box-title">Features</h2>
         <div class="box-content">
@@ -149,7 +101,6 @@ body {
           </ul>
         </div>
       </section>
-
       <section class="box">
         <h2 class="box-title">Installation</h2>
         <div class="box-content">
@@ -161,7 +112,6 @@ $ bower install https://github.com/mango/slideout.git
 $ component install mango/slideout</pre>
         </div>
       </section>
-
       <section class="box">
         <h2 class="box-title">Usage</h2>
         <div class="box-content">
@@ -244,20 +194,19 @@ body {
           <iframe id="github-button" data-aload="https://ghbtns.com/github-btn.html?user=mango&amp;repo=slideout&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="152" height="30"></iframe>
           <iframe id="twitter" allowtransparency="true" frameborder="0" width="62" height="22" scrolling="no" src="https://platform.twitter.com/widgets/tweet_button.html?text=Slideout.js%3a%20A%20touch%20slideout%20navigation%20menu%20for%20your%20mobile%20web%20apps&url=https://slideout.js.org"></iframe>
         </div>
-        <p>with <span class="heart">❤</span> by <a href="https://twitter.com/pazguille" target="_blank">pazguille</a></p>
+        <p>with <span class="heart">&#10084;&#65039;</span> by <a href="https://twitter.com/pazguille" target="_blank">pazguille</a></p>
       </footer>
     </main>
 
     <script>
       // slideout.js
-      var Slideout=function(t){var e={};function i(n){if(e[n])return e[n].exports;var s=e[n]={i:n,l:!1,exports:{}};return t[n].call(s.exports,s,s.exports,i),s.l=!0,s.exports}return i.m=t,i.c=e,i.d=function(t,e,n){i.o(t,e)||Object.defineProperty(t,e,{configurable:!1,enumerable:!0,get:n})},i.r=function(t){Object.defineProperty(t,"__esModule",{value:!0})},i.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return i.d(e,"a",e),e},i.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},i.p="",i(i.s=1)}([function(t,e,i){"use strict";function n(){}n.prototype.on=function(t,e){return this._collection=this._collection||{},this._collection[t]=this._collection[t]||[],this._collection[t].push(e),this},n.prototype.once=function(t,e){var i=this;function n(){i.off(t,n),e.apply(this,arguments)}return n.listener=e,this.on(t,n),this},n.prototype.off=function(t,e){var i=this._collection&&this._collection[t],n=0;if(void 0!==i){for(;n<i.length;n+=1)if(i[n]===e||i[n].listener===e){i.splice(n,1);break}0===i.length&&this.removeAllListeners(t)}return this},n.prototype.removeAllListeners=function(t){return this._collection=this._collection||{},delete this._collection[t],this},n.prototype.listeners=function(t){return this._collection=this._collection||{},this._collection[t]},n.prototype.emit=function(){if(void 0===this._collection)return this;var t,e=[].slice.call(arguments,0),i=e.shift(),n=this._collection[i],s=0;if(n)for(t=(n=n.slice(0)).length;s<t;s+=1)n[s].apply(this,e);return this},t.exports=n},function(t,e,i){"use strict";var n,s,o=i(0),r="slideout-panel",a="slideout-menu",h="slideout-move",c=!1,l=document.documentElement,u=navigator.msPointerEnabled,p={start:u?"MSPointerDown":"touchstart",move:u?"MSPointerMove":"touchmove",end:u?"MSPointerUp":"touchend"},d="touchstart"===p.start&&{passive:!0,capture:!1},_="touchstart"===p.start&&{passive:!1,capture:!1};function m(t){t=t||{},this._startOffsetX=0,this._startOffsetY=0,this._currentOffsetX=0,this._opening=!1,this._moved=!1,this._opened=!1,this._preventOpen=!1,this.panel=t.panel,this.menu=t.menu,this.itemToMove="panel"===t.itemToMove?this.panel:this.menu,this.dimmer=document.createElement("div"),this.dimmer.className="slideout-dimmer",this.panel.insertBefore(this.dimmer,this.panel.firstChild),this._touch=void 0===t.touch||t.touch&&!0,this._side=t.side||"left",this._easing=t.fx||t.easing||"ease",this._duration=parseInt(t.duration,10)||300,this._tolerance=parseInt(t.tolerance,10)||70,this._padding=this._translateTo=parseInt(t.padding,10)||256,this._orientation="right"===this._side?-1:1,this._translateTo*=this._orientation,this._grabWidth=parseInt(t.grabWidth,10)||Math.round(l.clientWidth/3),this.panel.classList.contains(r)||this.panel.classList.add(r),this.panel.classList.contains(r+"-"+this._side)||this.panel.classList.add(r+"-"+this._side),this.menu.classList.contains(a)||this.menu.classList.add(a),this.menu.classList.contains(a+"-"+this._side)||this.menu.classList.add(a+"-"+this._side),"panel"===t.itemToMove?this.panel.classList.add(h):this.menu.classList.add(h);var e=this;this._closeByDimmer=function(t){e._opened&&(t.preventDefault(),t.stopPropagation(),e.close())},this._touch&&this._initTouchEvents()}s=o,(n=m).prototype=function(t,e){for(var i in e)e[i]&&(t[i]=e[i]);return t}(n.prototype||{},s.prototype),m.prototype.open=function(){var t=this;return this.emit("before:open"),l.classList.contains("slideout-open")||l.classList.add("slideout-open"),this._addTransition(),this._translateXTo(this._translateTo),this.panel.addEventListener("click",this._closeByDimmer,!0),this._opened=!0,setTimeout(function(){t._removeTransition(),t.emit("open")},this._duration+50),this},m.prototype.close=function(){var t=this;return this.isOpen()||this._opening?(this.emit("before:close"),this._addTransition(),this._translateXTo(0),this.panel.removeEventListener("click",this._closeByDimmer),this._opened=!1,setTimeout(function(){l.classList.remove("slideout-open"),t.itemToMove.style["-webkit-transform"]=t.itemToMove.style.transform=null,t._removeTransition(),t.emit("close")},this._duration+50),this):this},m.prototype.toggle=function(){return this.isOpen()?this.close():this.open()},m.prototype.isOpen=function(){return this._opened},m.prototype._translateXTo=function(t){return this._currentOffsetX=t,this.itemToMove.style["-webkit-transform"]=this.itemToMove.style.transform="translateX("+t+"px)",this.dimmer.style.opacity=(Math.abs(t)/this.menu.offsetWidth).toFixed(4),this},m.prototype._addTransition=function(){return this.itemToMove.style["-webkit-transition"]="-webkit-transform "+this._duration+"ms "+this._easing,this.itemToMove.style.transition="transform "+this._duration+"ms "+this._easing,this.dimmer.style["-webkit-transition"]=this.dimmer.style.transition="opacity "+this._duration+"ms "+this._easing,this},m.prototype._removeTransition=function(){return this.itemToMove.style.transition=this.itemToMove.style["-webkit-transition"]=null,this.dimmer.style.transition=this.dimmer.style["-webkit-transition"]=null,this.dimmer.style.opacity=null,this},m.prototype._initTouchEvents=function(){var t=this;return this._preventMove=function(e){t._moved&&e.preventDefault()},document.addEventListener(p.move,this._preventMove,_),this._resetTouchFn=function(e){if(void 0!==e.touches){t._moved=!1,t._opening=!1,t._startOffsetX=e.touches[0].pageX,t._startOffsetY=e.touches[0].pageY;var i=t._startOffsetX;"right"===t._side&&(i=l.clientWidth-t._startOffsetX),t._preventOpen=!t._touch||this===t.panel&&i>t._grabWidth}},this.panel.addEventListener(p.start,this._resetTouchFn,d),this.menu.addEventListener(p.start,this._resetTouchFn,d),this._onTouchCancelFn=function(){t._moved=!1,t._opening=!1},this.panel.addEventListener("touchcancel",this._onTouchCancelFn),this.menu.addEventListener("touchcancel",this._onTouchCancelFn),this._onTouchEndFn=function(){t._moved&&(t.emit("translate:end"),t._opening&&Math.abs(t._currentOffsetX)>t._tolerance?t.open():t.close()),t._moved=!1,c=!1},this.panel.addEventListener(p.end,this._onTouchEndFn,d),this.menu.addEventListener(p.end,this._onTouchEndFn,d),this._onTouchMoveFn=function(e){if(!(c||t._preventOpen||void 0===e.touches||function(t){for(;t.parentNode;){if(null!==t.getAttribute("data-slideout-ignore"))return t;t=t.parentNode}return null}(e.target))){var i=e.touches[0].pageX-t._startOffsetX,n=e.touches[0].pageY-t._startOffsetY;if(!(180*Math.atan2(Math.abs(n),Math.abs(i))/Math.PI>45)||t._opening){e.cancelable&&e.preventDefault(),e.stopPropagation();var s=t._currentOffsetX=i;if(!(Math.abs(s)>t._padding)&&Math.abs(i)>20){t._opening=!0;var o=i*t._orientation;if(t._opened&&o>0||!t._opened&&o<0)return;t._moved||t.emit("translate:start"),o<=0&&(s=i+t._padding*t._orientation,t._opening=!1),t._moved&&l.classList.contains("slideout-open")||l.classList.add("slideout-open"),t._translateXTo(s),t.emit("translate",s),t._moved=!0}}else c=!0}},this.panel.addEventListener(p.move,this._onTouchMoveFn,_),this.menu.addEventListener(p.move,this._onTouchMoveFn,_),this},m.prototype.enableTouch=function(){return this._touch=!0,this},m.prototype.disableTouch=function(){return this._touch=!1,this},m.prototype.destroy=function(){return this.close(),document.removeEventListener(p.move,this._preventMove,_),this.panel.removeEventListener(p.start,this._resetTouchFn,d),this.panel.removeEventListener("touchcancel",this._onTouchCancelFn),this.panel.removeEventListener(p.end,this._onTouchEndFn,d),this.panel.removeEventListener(p.move,this._onTouchMoveFn,_),this.open=this.close=function(){},this},t.exports=m}]);
+      !function(t){if("object"==typeof exports&&"undefined"!=typeof module)module.exports=t();else if("function"==typeof define&&define.amd)define([],t);else{var e;"undefined"!=typeof window?e=window:"undefined"!=typeof global?e=global:"undefined"!=typeof self&&(e=self),e.Slideout=t()}}(function(){var t,e,n;return function i(t,e,n){function o(r,a){if(!e[r]){if(!t[r]){var u=typeof require=="function"&&require;if(!a&&u)return u(r,!0);if(s)return s(r,!0);var l=new Error("Cannot find module '"+r+"'");throw l.code="MODULE_NOT_FOUND",l}var f=e[r]={exports:{}};t[r][0].call(f.exports,function(e){var n=t[r][1][e];return o(n?n:e)},f,f.exports,i,t,e,n)}return e[r].exports}var s=typeof require=="function"&&require;for(var r=0;r<n.length;r++)o(n[r]);return o}({1:[function(t,e,n){"use strict";var i=t("decouple");var o=t("emitter");var s;var r=false;var a=window.document;var u=a.documentElement;var l=window.navigator.msPointerEnabled;var f={start:l?"MSPointerDown":"touchstart",move:l?"MSPointerMove":"touchmove",end:l?"MSPointerUp":"touchend"};var h=function v(){var t=/^(Webkit|Khtml|Moz|ms|O)(?=[A-Z])/;var e=a.getElementsByTagName("script")[0].style;for(var n in e){if(t.test(n)){return"-"+n.match(t)[0].toLowerCase()+"-"}}if("WebkitOpacity"in e){return"-webkit-"}if("KhtmlOpacity"in e){return"-khtml-"}return""}();function c(t,e){for(var n in e){if(e[n]){t[n]=e[n]}}return t}function p(t,e){t.prototype=c(t.prototype||{},e.prototype)}function d(t){while(t.parentNode){if(t.getAttribute("data-slideout-ignore")!==null){return t}t=t.parentNode}return null}function _(t){t=t||{};this._startOffsetX=0;this._currentOffsetX=0;this._opening=false;this._moved=false;this._opened=false;this._preventOpen=false;this._touch=t.touch===undefined?true:t.touch&&true;this._side=t.side||"left";this.panel=t.panel;this.menu=t.menu;if(!this.panel.classList.contains("slideout-panel")){this.panel.classList.add("slideout-panel")}if(!this.panel.classList.contains("slideout-panel-"+this._side)){this.panel.classList.add("slideout-panel-"+this._side)}if(!this.menu.classList.contains("slideout-menu")){this.menu.classList.add("slideout-menu")}if(!this.menu.classList.contains("slideout-menu-"+this._side)){this.menu.classList.add("slideout-menu-"+this._side)}this._fx=t.fx||"ease";this._duration=parseInt(t.duration,10)||300;this._tolerance=parseInt(t.tolerance,10)||70;this._padding=this._translateTo=parseInt(t.padding,10)||256;this._orientation=this._side==="right"?-1:1;this._translateTo*=this._orientation;if(this._touch){this._initTouchEvents()}}p(_,o);_.prototype.open=function(){var t=this;this.emit("beforeopen");if(!u.classList.contains("slideout-open")){u.classList.add("slideout-open")}this._setTransition();this._translateXTo(this._translateTo);this._opened=true;setTimeout(function(){t.panel.style.transition=t.panel.style["-webkit-transition"]="";t.emit("open")},this._duration+50);return this};_.prototype.close=function(){var t=this;if(!this.isOpen()&&!this._opening){return this}this.emit("beforeclose");this._setTransition();this._translateXTo(0);this._opened=false;setTimeout(function(){u.classList.remove("slideout-open");t.panel.style.transition=t.panel.style["-webkit-transition"]=t.panel.style[h+"transform"]=t.panel.style.transform="";t.emit("close")},this._duration+50);return this};_.prototype.toggle=function(){return this.isOpen()?this.close():this.open()};_.prototype.isOpen=function(){return this._opened};_.prototype._translateXTo=function(t){this._currentOffsetX=t;this.panel.style[h+"transform"]=this.panel.style.transform="translateX("+t+"px)";return this};_.prototype._setTransition=function(){this.panel.style[h+"transition"]=this.panel.style.transition=h+"transform "+this._duration+"ms "+this._fx;return this};_.prototype._initTouchEvents=function(){var t=this;this._onScrollFn=i(a,"scroll",function(){if(!t._moved){clearTimeout(s);r=true;s=setTimeout(function(){r=false},250)}});this._preventMove=function(e){if(t._moved){e.preventDefault()}};a.addEventListener(f.move,this._preventMove);this._resetTouchFn=function(e){if(typeof e.touches==="undefined"){return}t._moved=false;t._opening=false;t._startOffsetX=e.touches[0].pageX;t._preventOpen=!t._touch||!t.isOpen()&&t.menu.clientWidth!==0};this.panel.addEventListener(f.start,this._resetTouchFn);this._onTouchCancelFn=function(){t._moved=false;t._opening=false};this.panel.addEventListener("touchcancel",this._onTouchCancelFn);this._onTouchEndFn=function(){if(t._moved){t.emit("translateend");t._opening&&Math.abs(t._currentOffsetX)>t._tolerance?t.open():t.close()}t._moved=false};this.panel.addEventListener(f.end,this._onTouchEndFn);this._onTouchMoveFn=function(e){if(r||t._preventOpen||typeof e.touches==="undefined"||d(e.target)){return}var n=e.touches[0].clientX-t._startOffsetX;var i=t._currentOffsetX=n;if(Math.abs(i)>t._padding){return}if(Math.abs(n)>20){t._opening=true;var o=n*t._orientation;if(t._opened&&o>0||!t._opened&&o<0){return}if(!t._moved){t.emit("translatestart")}if(o<=0){i=n+t._padding*t._orientation;t._opening=false}if(!(t._moved&&u.classList.contains("slideout-open"))){u.classList.add("slideout-open")}t.panel.style[h+"transform"]=t.panel.style.transform="translateX("+i+"px)";t.emit("translate",i);t._moved=true}};this.panel.addEventListener(f.move,this._onTouchMoveFn);return this};_.prototype.enableTouch=function(){this._touch=true;return this};_.prototype.disableTouch=function(){this._touch=false;return this};_.prototype.destroy=function(){this.close();a.removeEventListener(f.move,this._preventMove);this.panel.removeEventListener(f.start,this._resetTouchFn);this.panel.removeEventListener("touchcancel",this._onTouchCancelFn);this.panel.removeEventListener(f.end,this._onTouchEndFn);this.panel.removeEventListener(f.move,this._onTouchMoveFn);a.removeEventListener("scroll",this._onScrollFn);this.open=this.close=function(){};return this};e.exports=_},{decouple:2,emitter:3}],2:[function(t,e,n){"use strict";var i=function(){return window.requestAnimationFrame||window.webkitRequestAnimationFrame||function(t){window.setTimeout(t,1e3/60)}}();function o(t,e,n){var o,s=false;function r(t){o=t;a()}function a(){if(!s){i(u);s=true}}function u(){n.call(t,o);s=false}t.addEventListener(e,r,false);return r}e.exports=o},{}],3:[function(t,e,n){"use strict";var i=function(t,e){if(!(t instanceof e)){throw new TypeError("Cannot call a class as a function")}};n.__esModule=true;var o=function(){function t(){i(this,t)}t.prototype.on=function e(t,n){this._eventCollection=this._eventCollection||{};this._eventCollection[t]=this._eventCollection[t]||[];this._eventCollection[t].push(n);return this};t.prototype.once=function n(t,e){var n=this;function i(){n.off(t,i);e.apply(this,arguments)}i.listener=e;this.on(t,i);return this};t.prototype.off=function o(t,e){var n=undefined;if(!this._eventCollection||!(n=this._eventCollection[t])){return this}n.forEach(function(t,i){if(t===e||t.listener===e){n.splice(i,1)}});if(n.length===0){delete this._eventCollection[t]}return this};t.prototype.emit=function s(t){var e=this;for(var n=arguments.length,i=Array(n>1?n-1:0),o=1;o<n;o++){i[o-1]=arguments[o]}var s=undefined;if(!this._eventCollection||!(s=this._eventCollection[t])){return this}s=s.slice(0);s.forEach(function(t){return t.apply(e,i)});return this};return t}();n["default"]=o;e.exports=n["default"]},{}]},{},[1])(1)});
 
       var slideout = new Slideout({
         'panel': document.getElementById('main'),
         'menu': document.getElementById('menu'),
-        'itemToMove': 'menu',
         'padding': 256,
-        'tolerance': 70,
+        'tolerance': 70
       });
 
       document.querySelector('.js-slideout-toggle').addEventListener('click', function() {
@@ -283,6 +232,12 @@ body {
         aload();
         document.querySelector('.iphone').className += ' shown';
         document.querySelector('.tooltip').className += ' shake';
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-15753373-13', 'auto');
+        ga('send', 'pageview');
       }
     </script>
   </body>
