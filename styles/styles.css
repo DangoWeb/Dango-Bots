@@ -83,7 +83,7 @@ a {
   font-size: 3.2em;
   line-height: 1em;
   margin: 0 0 15px;
-  color: #4B5;
+  color: #6F12FF;
   font-weight: 400;
   padding-top: 30px;
 }
@@ -109,14 +109,14 @@ a {
   border-radius: 4px;
   line-height: 50px;
   display: inline-block;
-  border: 1px solid #4B5;
+  border: 1px solid #6F12FF;
   width: 35%;
   font-size: 1.2em;
 }
 
 .btn-download {
   margin-right: 5px;
-  background-color: #4B5;
+  background-color: #6F12FF;
   color: #fff;
   font-weight: 600;
 }
@@ -128,7 +128,7 @@ a {
 
 .btn-fork {
   margin-left: 5px;
-  color: #4B5;
+  color: #6F12FF;
   background-color: #fff;
 }
 
@@ -176,7 +176,7 @@ a {
   font-size: 20px;
   line-height: 19px;
   display: inline-block;
-  background: #4B5 url('../assets/happy.png') no-repeat 135px 15px;
+  background: #6F12FF url('../assets/happy.png') no-repeat 135px 15px;
   color: #fff;
   padding: 10px 45px 10px 20px;
   border-radius: 4px;
@@ -189,7 +189,7 @@ a {
   display:inline-block;
   border-top: 6px solid transparent;
   border-bottom: 6px solid transparent;
-  border-right: 6px solid #4B5;
+  border-right: 6px solid #6F12FF;
   position: absolute;
   top: 50%;
   left: -5px;
@@ -200,7 +200,7 @@ a {
  * Boxes
  */
 .box {
-  border: 1px solid #4b5;
+  border: 1px solid #6F12FF;
   border-radius: 4px;
   text-align: left;
   margin: 50px 10px;
@@ -213,7 +213,7 @@ a {
   display: inline-block;
   width: 1px;
   height: 50px;
-  border-left: 1px solid #4b5;
+  border-left: 1px solid #6F12FF;
   position: absolute;
   left: 50%;
 }
@@ -229,8 +229,8 @@ a {
 .box-title {
   margin: 0;
   padding:10px 20px;
-  border-bottom: 1px solid #4b5;
-  color: #4b5;
+  border-bottom: 1px solid #6F12FF;
+  color: #6F12FF;
   font-size: 1.2em;
   font-weight: 400;
 }
