@@ -3,14 +3,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
     {% unless site.plugins contains "jekyll-seo-tag" %}
-    <!--<title>{{ page.title }} - {{ site.title }}</title>-->
+    <title>{{ page.title }} | {{ site.title }}</title>
 
     {% if page.description %}
     <meta name="Description" content="{{ page.description }}">
     {% endif %}
     {% endunless %}
 
-    <link rel="shortcut icon" href="{{ 'https://dangoweb.ga/favicon.ico' | relative_url }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ '../favicon.ico' | relative_url }}" type="image/x-icon">
 
     <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
     <link href="https://dangomc.ga/assets/css/material-kit.css?v=2.0.7" rel="stylesheet" />
