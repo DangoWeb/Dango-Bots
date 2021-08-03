@@ -1,8 +1,9 @@
-﻿<html lang="en">
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="www/styles/styles.css">
-    <link rel="stylesheet" data-aload="www/styles/fonts.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" data-aload="styles/fonts.css">
     <link rel="shortcut icon" href="favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="cleartype" content="on">
@@ -10,7 +11,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="keywords" content="dango, dangoweb, dangobots, bots, website">
+    <meta name="keywords" content="slideout, offcanvas, javascript, menu, touch">
     <meta name="author" content="Dango Web Solutions">
     <meta name="title" content="Dango Bots">
     <meta name="theme-color" content="#303136">
@@ -26,50 +27,40 @@
     <meta property="twitter:title" content="Dango Bots">
     <meta property="twitter:description" content="Blazing fast Discord Bot creation">
     <meta property="twitter:image" content="https://bots.dangoweb.ga/banner.gif">
-    <meta name="description" content="Blazing fast Discord Bot creation - Bot Name, Prefix, and Profile Picture is all that is needed to get started. Cool Bot addons like Music, Giveaways, Tickets, and more are available.">
+    <meta name="description" content="Blazing fast Discord Bot creation">
     <title>Dango Bots | Blazing fast Discord Bot creation</title>
   </head>
   <body>
+
+    <nav id="menu" class="menu">
+      <section class="menu-section">
+        <h3 class="menu-section-title">Docs</h3>
+        <ul class="menu-section-list">
+          <li><a href="https://github.com/mango/slideout#installation" target="_blank">Installation</a></li>
+          <li><a href="https://github.com/mango/slideout#usage" target="_blank">Usage</a></li>
+          <li><a href="https://github.com/mango/slideout#api" target="_blank">API</a></li>
+          <li><a href="https://github.com/mango/slideout#browser-support" target="_blank">Browser Support</a></li>
+          <li><a href="https://github.com/mango/slideout#faq" target="_blank">FAQ</a></li>
+        </ul>
+      </section>
+
+      <section class="menu-section">
+        <h3 class="menu-section-title">Slideout</h3>
+        <ul class="menu-section-list">
+          <li><a href="https://github.com/mango/slideout" target="_blank">Fork it</a></li>
+          <li><a href="https://github.com/mango/slideout/issues/new" target="_blank">Create an issue</a></li>
+          <li><a href="https://github.com/mango/slideout/releases/" target="_blank">Download</a></li>
+          <li><a href="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js" target="_blank">CDN</a></li>
+        </ul>
+      </section>
+    </nav>
+
     <main id="main" class="panel">
       <header class="panel-header">
-<!--<a href="https://github.com/dangoweb" target="_blank" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="svg-link" viewBox="0 0 24 24">
-            <title>Link</title>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
-                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-            </svg>
-        </symbol>
-        <symbol id="svg-search" viewBox="0 0 24 24">
-            <title>Search</title>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-        </symbol>
-        <symbol id="svg-menu" viewBox="0 0 24 24">
-            <title>Menu</title>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
-                <line x1="3" y1="12" x2="21" y2="12"></line>
-                <line x1="3" y1="6" x2="21" y2="6"></line>
-                <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
-        </symbol>
-        <symbol id="svg-arrow-right" viewBox="0 0 24 24">
-            <title>Expand</title>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
-                <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-        </symbol>
-        <symbol id="svg-doc" viewBox="0 0 24 24">
-            <title>Document</title>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
-                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
-                <polyline points="13 2 13 9 20 9"></polyline>
-            </svg>
-        </symbol>
-    </svg>-->
+        <a href="https://github.com/mango/slideout" target="_blank" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+        <button class="btn-hamburger js-slideout-toggle">
+          <span class="tooltip">Open slideout</span>
+        </button>
 	<br /><br /><br /><br />
 	<img src="favicon.ico" height="100px" />
         <h1 class="title">Dango Bots</h1>
@@ -87,10 +78,12 @@
     	  </div>
         </div>
       </header>
+
       <div class="panel-demo iphone">
-        <img data-aload="www/assets/poster.png">
-        <video poster="www/assets/poster.png" data-aload="www/assets/demo.webm" type="video/webm" loop autoplay></video>
+        <img data-aload="assets/poster.png">
+        <video poster="assets/poster.png" data-aload="assets/demo.webm" type="video/webm" loop autoplay></video>
       </div>
+
       <section class="box">
         <h2 class="box-title">Features</h2>
         <div class="box-content">
@@ -104,6 +97,7 @@
           </ul>
         </div>
       </section>
+
       <section class="box">
         <h2 class="box-title">Installation</h2>
         <div class="box-content">
@@ -115,6 +109,7 @@ $ bower install https://github.com/mango/slideout.git
 $ component install mango/slideout</pre>
         </div>
       </section>
+
       <section class="box">
         <h2 class="box-title">Usage</h2>
         <div class="box-content">
@@ -197,7 +192,7 @@ body {
           <iframe id="github-button" data-aload="https://ghbtns.com/github-btn.html?user=mango&amp;repo=slideout&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="152" height="30"></iframe>
           <iframe id="twitter" allowtransparency="true" frameborder="0" width="62" height="22" scrolling="no" src="https://platform.twitter.com/widgets/tweet_button.html?text=Slideout.js%3a%20A%20touch%20slideout%20navigation%20menu%20for%20your%20mobile%20web%20apps&url=https://slideout.js.org"></iframe>
         </div>
-        <p>with <span class="heart">&#10084;&#65039;</span> by <a href="https://twitter.com/pazguille" target="_blank">pazguille</a></p>
+        <p>with <span class="heart">❤</span> by <a href="https://twitter.com/pazguille" target="_blank">pazguille</a></p>
       </footer>
     </main>
 
