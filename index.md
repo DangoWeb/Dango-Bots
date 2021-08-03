@@ -20,7 +20,7 @@ permalink: /
     <meta name="HandheldFriendly" content="True">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="keywords" content="slideout, offcanvas, javascript, menu, touch">
+    <meta name="keywords" content="dango, dangoweb, dangobots, bots, website">
     <meta name="author" content="Dango Web Solutions">
     <meta name="title" content="Dango Bots">
     <meta name="theme-color" content="#303136">
@@ -36,7 +36,7 @@ permalink: /
     <meta property="twitter:title" content="Dango Bots">
     <meta property="twitter:description" content="Blazing fast Discord Bot creation">
     <meta property="twitter:image" content="https://bots.dangoweb.ga/banner.gif">
-    <meta name="description" content="Blazing fast Discord Bot creation">
+    <meta name="description" content="Blazing fast Discord Bot creation - Bot Name, Prefix, and Profile Picture is all that is needed to get started. Cool Bot addons like Music, Giveaways, Tickets, and more are available.">
     <title>Dango Bots | Blazing fast Discord Bot creation</title>
   </head>
   <body>
