@@ -14,8 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Dango Bots
-title-after: Blazing fast Discord Bot creation
-description: Blazing fast Discord Bot creation - Bot Name, Prefix, and Profile Picture is all that is needed to get started. Cool Bot addons like Music, Giveaways, Tickets, and more are available.
+description: kjihhi
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bots.dangoweb.ga" # the base hostname & protocol for your site, e.g. http://example.com
 
