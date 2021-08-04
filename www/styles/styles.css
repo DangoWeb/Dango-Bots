@@ -75,6 +75,21 @@ a {
 /**
  * Header
  */
+
+/* Style the header */
+.stickyhead {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
 .panel-header {
   margin: 85px auto 55px;
 }
@@ -180,7 +195,7 @@ a {
 */
 
 #text {
-  margin-top: -37px;
+  margin-top: -35px;
   text-align: center;
 }
 
@@ -238,11 +253,11 @@ make it thinner, then set it to again wrap around the entire parent element.
   background: url('../assets/menu.png') no-repeat left center;
 }
 
-.tooltip {
+.tooltip:before {
   font-size: 20px;
   line-height: 19px;
   display: inline-block;
-  background: #6F12FF url('../assets/happy.png') no-repeat 135px 15px;
+  background: #6F12FF url('../favicon.ico') no-repeat 135px 15px;
   color: #fff;
   padding: 10px 45px 10px 20px;
   border-radius: 4px;
@@ -250,7 +265,7 @@ make it thinner, then set it to again wrap around the entire parent element.
   left: 50px;
 }
 
-.tooltip:before {
+.tooltip {
   content: '';
   display:inline-block;
   border-top: 6px solid transparent;
