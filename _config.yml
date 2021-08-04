@@ -22,7 +22,7 @@ url: "https://bots.dangoweb.ga" # the base hostname & protocol for your site, e.
 logo: "title.png"
 
 permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/", "docs/ui-components/", "docs/utilities/", "docs/configuration.md", "docs/customization.md", "docs/index-test.md", "docs/navigation-structure.md", "docs/search.md"
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "index---.md", "README.md", "Rakefile", "docs/tests/", "docs/ui-components/", "docs/utilities/", "docs/configuration.md", "docs/customization.md", "docs/index-test.md", "docs/navigation-structure.md", "docs/search.md"
 , "docs/tests/"
 ]
 
@@ -67,10 +67,10 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Join Our Discord Server":
-    - "https://discord.gg/hNRJsPebza"
-  "[<-]- Home":
-    - "https://dangomc.ga/"
+  "💬 Join Our Discord Server":
+    - "https://discord.gg/WtSFQx4pTU"
+  "🏠 Home":
+    - "https://bots.dangoweb.ga/"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false

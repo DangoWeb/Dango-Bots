@@ -40,6 +40,7 @@ permalink: /
   <body>
 
     <nav id="menu" class="menu">
+	<img src="../favicon.ico" style="width:100%" />
       <section class="menu-section">
         <h3 class="menu-section-title">Docs</h3>
         <ul class="menu-section-list">
@@ -49,12 +50,6 @@ permalink: /
           <li><a href="https://github.com/mango/slideout#browser-support" target="_blank">Browser Support</a></li>
           <li><a href="https://github.com/mango/slideout#faq" target="_blank">FAQ</a></li>
     <div class="side-bar">
-        <div class="site-header">
-            <a href="{{ '/' | absolute_url }}" class="site-title lh-tight">{% include title.html %}</a>
-            <a href="#" id="menu-button" class="site-button">
-                <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
-            </a>
-        </div>
         <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
             {% if site.just_the_docs.collections %}
             {% assign collections_size = site.just_the_docs.collections | size %}
@@ -73,14 +68,14 @@ permalink: /
             {% include nav.html pages=site.html_pages %}
             {% endif %}
         </nav>
-        <footer class="site-footer">
+        <footer class="site-footer" style="color:white">
             Learn and Teach Minecraft with free Guides and Downloads from DangoMC - a Community Powered Minecraft server for Bedrock and Java.
         </footer>
     </div>
         </ul>
       </section>
 
-      <section class="menu-section">
+      <!--<section class="menu-section">
         <h3 class="menu-section-title">Slideout</h3>
         <ul class="menu-section-list">
           <li><a href="https://github.com/mango/slideout" target="_blank">Fork it</a></li>
@@ -88,7 +83,7 @@ permalink: /
           <li><a href="https://github.com/mango/slideout/releases/" target="_blank">Download</a></li>
           <li><a href="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js" target="_blank">CDN</a></li>
         </ul>
-      </section>
+      </section>-->
     </nav>
 
     <main id="main" class="panel">
