@@ -40,7 +40,7 @@ permalink: /
   <body>
 
     <nav id="menu" class="menu">
-	<img src="../title-white.png" style="width:100%;margin-left:10px;margin-right:10px;margin-top:10px" />
+	<img src="../title-white.png" style="width:90%;margin-left:10px;margin-top:10px" />
       <!--<section class="menu-section">
         <h3 class="menu-section-title">Docs</h3>
         <ul class="menu-section-list">
