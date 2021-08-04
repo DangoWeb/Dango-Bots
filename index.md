@@ -40,7 +40,7 @@ permalink: /
   <body>
 
     <nav id="menu" class="menu">
-	<img src="../title-white.png" style="width:100%;padding-left:10px;padding-right:10px" />
+	<img src="../title-white.png" style="width:100%;margin-left:10px;margin-right:10px;margin-top:10px" />
       <!--<section class="menu-section">
         <h3 class="menu-section-title">Docs</h3>
         <ul class="menu-section-list">
@@ -70,7 +70,7 @@ permalink: /
             {% include nav.html pages=site.html_pages %}
             {% endif %}
         </nav>
-        <footer class="site-footer" style="color:white;padding-left:5px;padding-right:5px">
+        <footer class="site-footer" style="color:white;margin-left:20px;margin-right:20px">
             Blazing fast Discord Bot creation - Bot Name, Prefix, and Profile Picture is all that is needed to get started. Cool Bot addons like Music, Giveaways, Tickets, and more are available.
         </footer>
     </div>
