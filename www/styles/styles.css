@@ -257,7 +257,7 @@ make it thinner, then set it to again wrap around the entire parent element.
   font-size: 20px;
   line-height: 19px;
   display: inline-block;
-  background: #6F12FF url('') no-repeat 135px 15px;
+  background: #6F12FF url('../favicon.ico') no-repeat 135px 15px;
   color: #fff;
   padding: 10px 45px 10px 20px;
   border-radius: 4px;
