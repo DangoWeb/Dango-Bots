@@ -236,7 +236,7 @@ make it thinner, then set it to again wrap around the entire parent element.
   top: 12px;
   left: 12px;
   outline:none;
-  background: url('../assets/menu.png') no-repeat left center;
+  background: url('../www/assets/menu.png') no-repeat left center;
 }
 
 /**
