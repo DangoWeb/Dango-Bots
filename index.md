@@ -40,8 +40,8 @@ permalink: /
   <body>
 
     <nav id="menu" class="menu">
-	<img src="../favicon.ico" style="width:100%" />
-      <section class="menu-section">
+	<img src="../title-white.png" style="width:100%;padding-left:10px;padding-right:10px" />
+      <!--<section class="menu-section">
         <h3 class="menu-section-title">Docs</h3>
         <ul class="menu-section-list">
           <li><a href="https://github.com/mango/slideout#installation" target="_blank">Installation</a></li>
@@ -49,6 +49,8 @@ permalink: /
           <li><a href="https://github.com/mango/slideout#api" target="_blank">API</a></li>
           <li><a href="https://github.com/mango/slideout#browser-support" target="_blank">Browser Support</a></li>
           <li><a href="https://github.com/mango/slideout#faq" target="_blank">FAQ</a></li>
+        </ul>
+      </section>-->
     <div class="side-bar">
         <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
             {% if site.just_the_docs.collections %}
@@ -68,13 +70,10 @@ permalink: /
             {% include nav.html pages=site.html_pages %}
             {% endif %}
         </nav>
-        <footer class="site-footer" style="color:white">
-            Learn and Teach Minecraft with free Guides and Downloads from DangoMC - a Community Powered Minecraft server for Bedrock and Java.
+        <footer class="site-footer" style="color:white;padding-left:5px;padding-right:5px">
+            Blazing fast Discord Bot creation - Bot Name, Prefix, and Profile Picture is all that is needed to get started. Cool Bot addons like Music, Giveaways, Tickets, and more are available.
         </footer>
     </div>
-        </ul>
-      </section>
-
       <!--<section class="menu-section">
         <h3 class="menu-section-title">Slideout</h3>
         <ul class="menu-section-list">
