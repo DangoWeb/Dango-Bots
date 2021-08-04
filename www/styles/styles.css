@@ -180,12 +180,12 @@ a {
 */
 
 #text {
-  margin-top: -36px;
+  margin-top: -37px;
   text-align: center;
 }
 
 #text a {
-  color: 6F12FF;
+  color: #6F12FF;
   text-decoration: none;
   font-weight: 100;
   font-size: 1.1em;
@@ -200,7 +200,6 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke-width: 3px;
   stroke-dashoffset: 0;
   stroke: #6F12FF;
-  width: 1500px;
 }
 
 /**
