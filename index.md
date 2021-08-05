@@ -88,9 +88,7 @@ permalink: /
         </div>
       </header>
 
-      <section class="box" style="margin: 50px 8px;">
-        <div class="box-content" style="background-image: url(../banner.gif);background-size: cover"></div>
-      </section>
+      <img src="../banner.gif" style="width:50%;border: 1px solid #6F12FF;border-radius: 4px;" />
 
       <section class="box">
         <h2 class="box-title">Features</h2>
