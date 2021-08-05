@@ -75,16 +75,7 @@ permalink: /
 
       <div class="panel-demo iphone">
       <section class="box">
-        <div class="box-content" style="background-image: url(../banner.gif);background-size: cover">
-          <ul>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-</ul>
-        </div>
+        <div class="box-content" style="background-image: url(../banner.gif);background-size: cover"><br /><br /><br /><br /><br /><br /></div>
       </section>
       </div>
 
