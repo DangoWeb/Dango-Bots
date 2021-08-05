@@ -72,9 +72,21 @@ permalink: /
     	  </div>
         </div>
       </header>
-      <section class="box" style="background-image: url(../banner.gif);background-size: cover;width: 100%">
-        <h2 class="box-title"></h2>
+
+      <div class="panel-demo iphone">
+      <section class="box">
+        <div class="box-content" style="background-image: url(../banner.gif);background-size: cover">
+          <ul>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</ul>
+        </div>
       </section>
+      </div>
 
       <section class="box">
         <h2 class="box-title">Features</h2>
