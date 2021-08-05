@@ -73,7 +73,7 @@ permalink: /
         </div>
       </header>
 
-      <div class="panel-demo iphone">
+      <div class="panel-demo">
       <section class="box">
         <div class="box-content" style="background-image: url(../banner.gif);background-size: cover"><br /><br /><br /><br /><br /><br /></div>
       </section>
