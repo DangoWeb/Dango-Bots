@@ -104,95 +104,27 @@ permalink: /
       <section class="box">
         <h2 class="box-title">Setup</h2>
         <div class="box-content">
-          Bot Name: <pre>Sample Bot Name</pre>
-          Bot Prefix: <pre>samplebotprefix?</pre>
-          Bot Profile Picture: <pre>https://sample.bot/profile-picture.png</pre>
+          <p>1. Bot Name:</p>
+          <pre><code>Sample Bot Name</code></pre>
+          <p>2. Bot Prefix:</p>
+          Bot Prefix: <pre><code>samplebotprefix?</code></pre>
+          <p>3. Bot Profile Picture:</p>
+          Bot Profile Picture: <pre><code>https://sample.bot/profile-picture.png</code></pre>
         </div>
       </section>
 
       <section class="box">
         <h2 class="box-title">Usage</h2>
         <div class="box-content">
-          <p>1. First of all, you'll need to have a menu ("#menu") and a main content ("#panel") into your body.</p>
-          <pre><code class="language-markup">
-&lt;nav id=&quot;menu&quot;&gt;
-  &lt;header&gt;
-    &lt;h2&gt;Menu&lt;/h2&gt;
-  &lt;/header&gt;
-&lt;/nav&gt;
-
-&lt;main id=&quot;panel&quot;&gt;
-  &lt;header&gt;
-    &lt;h2&gt;Panel&lt;/h2&gt;
-  &lt;/header&gt;
-&lt;/main&gt;</code></pre>
-
-          <p>2. Add the Slideout.js styles (index.css) in your web application.</p>
-          <pre><code class="language-css">
-body {
-  width: 100%;
-  height: 100%;
-}
-
-.slideout-menu {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 256px;
-  min-height: 100vh;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-  z-index: 0;
-  display: none;
-}
-
-.slideout-menu-left {
-  left: 0;
-}
-
-.slideout-menu-right {
-  right: 0;
-}
-
-.slideout-panel {
-  position: relative;
-  z-index: 1;
-  will-change: transform;
-  background-color: #FFF; /* A background-color is required */
-  min-height: 100vh;
-}
-
-.slideout-open,
-.slideout-open body,
-.slideout-open .slideout-panel {
-  overflow: hidden;
-}
-
-.slideout-open .slideout-menu {
-  display: block;
-}</code></pre>
-
-          <p>3. Then you just include Slideout.js and create a new instace with some options:</p>
-
-          <pre><code class="language-markup">
-&lt;script src=&quot;dist/slideout.min.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
-  var slideout = new Slideout({
-    'panel': document.getElementById('panel'),
-    'menu': document.getElementById('menu'),
-    'padding': 256,
-    'tolerance': 70
-  });
-&lt;/script&gt;</code></pre>
+          <p>🎉 Done!</p>
         </div>
       </section>
 
       <footer class="panel-footer">
         <div class="box share-buttons">
-          <iframe id="github-button" data-aload="https://ghbtns.com/github-btn.html?user=mango&amp;repo=slideout&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="152" height="30"></iframe>
-          <iframe id="twitter" allowtransparency="true" frameborder="0" width="62" height="22" scrolling="no" src="https://platform.twitter.com/widgets/tweet_button.html?text=Slideout.js%3a%20A%20touch%20slideout%20navigation%20menu%20for%20your%20mobile%20web%20apps&url=https://slideout.js.org"></iframe>
-        </div>
-        <p>with <span class="heart">❤</span> by <a href="https://twitter.com/pazguille" target="_blank">pazguille</a></p>
+<img src="https://dangoweb.ga/favicon.ico" style="height:30px" />&nbsp;
+<img src="../favicon.ico" style="height:30px" />
+</div>
       </footer>
     </main>
 
