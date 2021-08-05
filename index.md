@@ -91,28 +91,22 @@ permalink: /
       <img src="../banner.gif" style="width:50%;border: 1px solid #6F12FF;border-radius: 4px;" />
 
       <section class="box">
-        <h2 class="box-title">Features</h2>
+        <h2 class="box-title">Select your Main Bot</h2>
         <div class="box-content">
           <ul>
-            <li>Dependency-free.</li>
-            <li>Simple markup.</li>
-            <li>Native scrolling.</li>
-            <li>Easy customization.</li>
-            <li>CSS transforms &amp; transitions.</li>
-            <li>Just 2 Kb!</li>
+            <li>Dango Bots v1</li>
+            <li>Dango Bots v2 (Default, Recommended)</li>
+            <li>Dango Bots v3</li>
           </ul>
         </div>
       </section>
 
       <section class="box">
-        <h2 class="box-title">Installation</h2>
+        <h2 class="box-title">Setup</h2>
         <div class="box-content">
-          <pre>
-$ npm install slideout
-
-$ bower install https://github.com/mango/slideout.git
-
-$ component install mango/slideout</pre>
+          Bot Name: <pre>Sample Bot Name</pre>
+          Bot Prefix: <pre>samplebotprefix?</pre>
+          Bot Profile Picture: <pre>https://sample.bot/profile-picture.png</pre>
         </div>
       </section>
 
