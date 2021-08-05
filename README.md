@@ -1,5 +1,5 @@
 <p align="right">
-<a href="https://dangoweb.ga/"><img src="https://dangoweb./favicon.ico" height="40px" /></a></p>
+<a href="https://dangoweb.ga/"><img src="https://dangoweb.ga/favicon.ico" height="40px" /></a></p>
 <br><br>
 <p align="center">
     <img align="center" src="title-white.png" />
@@ -7,6 +7,5 @@
     <p align="center">Blazing fast Discord Bot creation</p>
     <p align="center"><strong><a href="https://bots.dangoweb.ga/docs">Get Started!</a></strong></p>
     <br><br><br>
+    ![image](https://bots.dangoweb.ga/banner.gif)
 </p>
-
-![image](https://bots.dangoweb.ga/banner.gif)
