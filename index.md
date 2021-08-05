@@ -1,5 +1,5 @@
 ---
-layout: headeronly
+layout: none
 title: Home
 nav_order: 1
 description: "Blazing fast Discord Bot creation"
