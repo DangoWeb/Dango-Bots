@@ -72,11 +72,9 @@ permalink: /
     	  </div>
         </div>
       </header>
-
-      <div class="panel-demo iphone">
-        <img data-aload="www/assets/poster.png">
-        <video poster="www/assets/poster.png" data-aload="www/assets/demo.webm" type="video/webm" loop autoplay></video>
-      </div>
+      <section class="box">
+        <h2 class="box-title"><img src="../banner.gif" style="background-size:cover" /></h2>
+      </section>
 
       <section class="box">
         <h2 class="box-title">Features</h2>
