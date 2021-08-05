@@ -72,8 +72,8 @@ permalink: /
     	  </div>
         </div>
       </header>
-      <section class="box">
-        <h2 class="box-title"><img src="../banner.gif" style="background-size:cover;width:100%" /></h2>
+      <section class="box" style="background-image: url(../banner.gif);background-size: cover;width: 100%">
+        <h2 class="box-title"></h2>
       </section>
 
       <section class="box">
