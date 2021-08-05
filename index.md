@@ -36,6 +36,21 @@ permalink: /
     <meta property="twitter:image" content="https://bots.dangoweb.ga/banner.gif">
     <meta name="description" content="Blazing fast Discord Bot creation">
     <title>Dango Bots | Blazing fast Discord Bot creation</title>
+    <style>
+            /* mobile */
+        @media screen and (max-width: 900px) {
+            .subtitle {
+                margin:0 5px 45px 5px;
+            }
+        }
+
+        /* desktop */
+        @media screen and (min-width: 2000px) {
+            .subtitle {
+                margin:0 0 45px 0;
+            }
+        }
+    </style>
   </head>
   <body>
     <main id="main" class="panel">
@@ -73,11 +88,9 @@ permalink: /
         </div>
       </header>
 
-      <div class="panel-demo">
-      <section class="box">
-        <div class="box-content" style="background-image: url(../banner.gif);background-size: cover"><br /><br /><br /><br /><br /><br /></div>
+      <section class="box" style="margin: 50px 8px;">
+        <div class="box-content" style="background-image: url(../banner.gif);background-size: cover"></div>
       </section>
-      </div>
 
       <section class="box">
         <h2 class="box-title">Features</h2>
