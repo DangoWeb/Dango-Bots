@@ -8,6 +8,11 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
+::selection {
+    color: #ffffff;
+    background: #6F12FF;
+}
+
 body {
     margin: 0
 }
