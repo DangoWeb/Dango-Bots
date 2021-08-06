@@ -1,5 +1,7 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -319,7 +321,7 @@ pre.line-numbers {
 
 html,
 body {
-    font: 100%/1.4em 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0 auto;
     color: #222;
     -webkit-text-size-adjust: none;
@@ -404,6 +406,7 @@ a {
     color: #6F12FF;
     font-weight: 400;
     padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .subtitle {
@@ -412,6 +415,7 @@ a {
     line-height: 1.2em;
     margin: 0 0 45px 0;
     color: #767676;
+    font-family: 'Raleway', sans-serif;
 }
 
 /**
@@ -500,6 +504,7 @@ a {
 #text {
     margin-top: -32px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
     #text a {
@@ -507,6 +512,7 @@ a {
         text-decoration: none;
         font-weight: 100;
         font-size: 1.1em;
+        font-family: 'Raleway', sans-serif;
     }
 /* 
     Changing the shape on hover. I change the color of the stroke,
@@ -593,11 +599,13 @@ make it thinner, then set it to again wrap around the entire parent element.
     color: #6F12FF;
     font-size: 1.2em;
     font-weight: 400;
+    font-family: 'Raleway', sans-serif;
 }
 
 .box-content {
     padding: 20px;
     background-color: #f8f8f8;
+    font-family: 'Raleway', sans-serif;
 }
 
 /**
