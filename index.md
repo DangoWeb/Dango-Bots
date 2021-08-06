@@ -107,14 +107,26 @@ permalink: /
           <p>1. Bot Name:</p>
           <pre><code>Sample Bot Name</code></pre>
           <p>2. Bot Prefix:</p>
-          Bot Prefix: <pre><code>samplebotprefix?</code></pre>
+          <pre><code>samplebotprefix?</code></pre>
           <p>3. Bot Profile Picture:</p>
-          Bot Profile Picture: <pre><code>https://sample.bot/profile-picture.png</code></pre>
+          <pre><code>https://sample.bot/profile-picture.png</code></pre>
         </div>
       </section>
 
       <section class="box">
-        <h2 class="box-title">Usage</h2>
+        <h2 class="box-title">Select your Add-on Bot(s)</h2>
+        <div class="box-content">
+          <ul>
+            <li>Dango Music Bot (Free)</li>
+            <li>Dango Giveaway Bot (Paid)</li>
+            <li>Dango Tickets Bot (Paid)</li>
+            <li>Dango Moderation Bot (Free)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="box">
+        <h2 class="box-title">Finish</h2>
         <div class="box-content">
           <p>🎉 Done!</p>
         </div>
@@ -125,7 +137,7 @@ permalink: /
 <img src="https://dangoweb.ga/favicon.ico" style="height:30px" />&nbsp;
 <img src="../favicon.ico" style="height:30px" />
 </div>
-      </footer>
+      </footer><br /><br /><br />
     </main>
 
     <script>
