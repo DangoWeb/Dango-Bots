@@ -1,5 +1,5 @@
 <p align="right">
-<a href="https://dangoweb.ga/"><img src="https://dangoweb.ga/favicon.ico" height="40px" /></a></p>
+<a href="https://dangoweb.ga/"><img src="https://dangoweb.ga/favicon.ico" style="height:40px" /></a></p>
 <br><br>
 <p align="center">
     <img align="center" src="title-white.png" />
