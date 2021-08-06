@@ -134,7 +134,7 @@ permalink: /
 
       <footer class="panel-footer">
         <div class="box share-buttons" style="text-align: center;">
-<img src="https://dangoweb.ga/favicon.ico" style="height:60px;text-align: center;" />&nbsp;
+<img src="https://dangoweb.ga/favicon.ico" style="height:60px;text-align: center;padding-bottom:2px" />&nbsp;
 </div>
       </footer><br /><br /><br />
     </main>
