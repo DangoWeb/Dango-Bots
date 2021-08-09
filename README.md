@@ -7,5 +7,5 @@
     <p align="center">Blazing fast Discord Bot creation</p>
     <p align="center"><strong><a href="https://bots.dangoweb.ga/docs">Get Started!</a></strong></p>
     <br><br><br>
-    <img style="border: 1px solid #6F12FF;border-radius: 4px;align:center" align="center" src="https://bots.dangoweb.ga/banner.gif" />
+    <center><img style="border: 1px solid #6F12FF;border-radius: 4px" src="https://bots.dangoweb.ga/banner.gif" /></center>
 </p>
