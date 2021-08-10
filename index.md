@@ -88,7 +88,7 @@ permalink: /
         </div>
       </header>
 
-      <img src="../banner.gif" style="width:50%;border: 1px solid #6F12FF;border-radius: 4px;" />
+      <img src="../banner.gif" style="width:75%;border: 1px solid #6F12FF;border-radius: 4px;" />
 
       <section class="box">
         <h2 class="box-title">Select your Main Bot</h2>
@@ -134,7 +134,7 @@ permalink: /
 
       <footer class="panel-footer">
         <div class="box share-buttons" style="text-align: center;">
-<img src="https://dangoweb.ga/favicon.ico" style="height:60px;text-align: center;padding-bottom:2px" />&nbsp;
+<img src="https://dangoweb.ga/favicon.ico" style="height:60px;text-align: center;padding-bottom:5px" />&nbsp;
 </div>
       </footer><br /><br /><br />
     </main>
