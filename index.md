@@ -40,7 +40,7 @@ permalink: /
             /* mobile */
         @media screen and (max-width: 900px) {
             .subtitle {
-                margin:0 5px 45px 5px;
+                margin:0 10px 45px 10px;
             }
         }
 
