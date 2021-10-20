@@ -117,10 +117,12 @@ permalink: /
         <h2 class="box-title">Select your Add-on Bot(s)</h2>
         <div class="box-content">
           <ul>
-            <li>Dango Music Bot (Free)</li>
-            <li>Dango Giveaway Bot (Paid)</li>
-            <li>Dango Tickets Bot (Paid)</li>
-            <li>Dango Moderation Bot (Free)</li>
+            <li>Dango Moderation Bot - (Free)</li>
+            <li>Dango Music Bot ------- (Free)</li>
+            <li>Dango Fun Bot --------- (Free)</li>
+            <li>Dango NSFW Bot ------ (Free)</li>
+            <li>Dango Giveaway Bot --- (Paid)</li>
+            <li>Dango Tickets Bot ------ (Paid)</li>
           </ul>
         </div>
       </section>
