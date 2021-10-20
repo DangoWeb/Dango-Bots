@@ -20,7 +20,7 @@ A bot with tons of fun commands.
 ---
 
 <div class="note"></div>       
-**VERSION WARNING**: Fun commands only work with Dango Bots v4.   
+**Version Warning**: Fun commands only work with Dango Bots v4 due to the required dependencies match and error catching.
 
 ## Commands
 
