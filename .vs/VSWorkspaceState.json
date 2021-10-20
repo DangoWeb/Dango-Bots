@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets\\css"
+    "\\docs",
+    "\\docs\\addon-bots",
+    "\\_sass",
+    "\\_sass\\custom",
+    "\\_sass\\vendor\\normalize.scss"
   ],
-  "SelectedNode": "\\_config.yml",
+  "SelectedNode": "\\index.md",
   "PreviewInSolutionExplorer": false
 }
