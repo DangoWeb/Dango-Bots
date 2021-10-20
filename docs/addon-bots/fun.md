@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dango Fun
-parent: Main Bots
+parent: Addon Bots
 nav_order: 2
 ---
 
@@ -19,86 +19,50 @@ A bot with tons of fun commands.
 
 ---
 
+<div class="note"></div>       
+**VERSION WARNING**: Fun commands only work with Dango Bots v4.   
+
 ## Commands
 
-`8ball.js`
+`8ball`
 
-`allbots.js`
+`ascii`
 
-`anime.js`
+`emojify`
 
-`avatar.js`
+`fliptext`
 
-`changemymind.js`
+`hack`
 
-`channel.js`
+`hug`
 
-`channels.js`
+`insult`
 
-`createcode.js`
+`joke`
 
-`createembed.js`
+`kill`
 
-`embed.js`
+`pokeimg`
 
-`emoji-info.js`
+`respect`
 
-`emojis.js`
+`reverse`
 
-`gayrate.js`
+`vaportext`
 
-`hack.js`
-
-`help.js`
-
-`kill.js`
-
-`love.js`
-
-`mcskin.js`
-
-`members.js`
-
-`meme.js`
-
-`nuke.js`
-
-`playstore.js`
-
-`prnhubcomment.js`
-
-`punch.js`
-
-`reactionrole.js`
-
-`reactionroledelete.js`
-
-`redeem.js`
-
-`review.js`
-
-`roles.js`
-
-`setlng.js`
-
-`snipe.js`
-
-`trigger.js`
-
-`tweet.js`
+`yomama`
 
 ## Examples
 
 (Prefix is "z")
 
-Command: `help`
+Command: `8ball`
 
-Response: The Help Embed
+Response: A random anser to your question.
 
-> *User: zhelp*
+> *User: z8ball Am I human?*
 
-> *Bot:*
-> ![v2help](https://bots.dangoweb.ga/assets/images/v2help.png)
+> *Bot: Maybe not...*
 
 ## Possible Errors
 
@@ -106,31 +70,15 @@ Response: The Help Embed
 
 (Prefix is "z")
 
-Command: `kick`
+Command: `8ball`
 
 Response: Kicks the User, then Sends the Kick Embed
 
-> *User: zkick* --- This is where the error is... the user has to mention someone.
+> *User: z8ball* --- This is where the error is... the user has to ask a question.
 
 > *Console: ERROR*
 
-> *Bot:*
-> ![v2error](https://bots.dangoweb.ga/assets/images/v2error.png)
-
-### When you do not have permissions:
-
-(Prefix is "z")
-
-Command: `kick`
-
-Response: Kicks the User, then Sends the Kick Embed
-
-> *User: zkick* --- This is where the error is... the user has be a moderator (level 2).
-
-> *Console: ERROR*
-
-> *Bot:*
-> ![v2perms](https://bots.dangoweb.ga/assets/images/v2perms.png)
+> *Bot: Usage: `8ball <question>`*
 
 ### When the API is outdated:
 
