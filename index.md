@@ -97,6 +97,7 @@ permalink: /
             <li>Dango Bots v1</li>
             <li>Dango Bots v2 (Default, Recommended)</li>
             <li>Dango Bots v3</li>
+            <li>Dango Bots v4 (Latest)</li>
           </ul>
         </div>
       </section>
@@ -119,7 +120,10 @@ permalink: /
           <ul>
             <li>Dango Moderation Bot - (Free)</li>
             <li>Dango Music Bot ------- (Free)</li>
+            <li>Dango Games Bot ------- (Free)</li>
+            <li>Dango Image Bot ------- (Free)</li>
             <li>Dango Fun Bot --------- (Free)</li>
+            <li>Dango Utility Bot ------ (Free)</li>
             <li>Dango NSFW Bot ------ (Free)</li>
             <li>Dango Giveaway Bot --- (Paid)</li>
             <li>Dango Tickets Bot ------ (Paid)</li>
