@@ -8,7 +8,7 @@ nav_order: 2
 # Dango Fun
 {: .no_toc }
 
-A bot with tons of fun commands.
+Fun commands for your bot.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -66,19 +66,7 @@ Response: A random anser to your question.
 
 ## Possible Errors
 
-### When you did not use the command properly:
-
-(Prefix is "z")
-
-Command: `8ball`
-
-Response: Kicks the User, then Sends the Kick Embed
-
-> *User: z8ball* --- This is where the error is... the user has to ask a question.
-
-> *Console: ERROR*
-
-> *Bot: Usage: `8ball <question>`*
+### v4 comes with Error Catching. You should not experience any command errors without an explanation.
 
 ### When the API is outdated:
 

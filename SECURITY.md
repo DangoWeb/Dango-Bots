@@ -7,7 +7,7 @@
 | Dango Bots v1               | No         |
 | Dango Bots v2               | Yes        |
 | Dango Bots v3               | Yes        |
-| Dango Bots v4 (Coming Soon) | Yes        |
+| Dango Bots v4				  | Yes        |
 
 ## Reporting a Vulnerability
 
