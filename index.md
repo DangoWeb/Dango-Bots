@@ -97,7 +97,8 @@ permalink: /
             <li>Dango Bots v1</li>
             <li>Dango Bots v2 (Default, Recommended)</li>
             <li>Dango Bots v3</li>
-            <li>Dango Bots v4 (Latest)</li>
+            <li>Dango Bots v4</li>
+	    <li><img src="https://img.shields.io/badge/Latest_Version-v4-6F12FF?style=for-the-badge&logo=git&labelColor=black"/></li>
           </ul>
         </div>
       </section>
