@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bots.dangoweb.ga" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "title.png"
+logo: "https://bots.dangoweb.ga/title.png"
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "index---.md", "README.md", "Rakefile", "docs/tests/", "docs/ui-components/", "docs/utilities/", "docs/configuration.md", "docs/customization.md", "docs/index-test.md", "docs/navigation-structure.md", "docs/search.md"
