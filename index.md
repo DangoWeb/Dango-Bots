@@ -120,8 +120,8 @@ permalink: /
           <ul>
             <li>Dango Moderation Bot - (Free)</li>
             <li>Dango Music Bot ------- (Free)</li>
-            <li>Dango Games Bot ------ (Free)</li>
-            <li>Dango Image Bot ------ (Free)</li>
+            <li>Dango Games Bot ----- (Free)</li>
+            <li>Dango Image Bot ------- (Free)</li>
             <li>Dango Fun Bot --------- (Free)</li>
             <li>Dango Utility Bot ------- (Free)</li>
             <li>Dango NSFW Bot ------ (Free)</li>
