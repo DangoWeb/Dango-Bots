@@ -408,7 +408,10 @@ a {
     font-size: 3.2em;
     line-height: 1em;
     margin: 0 0 15px;
-    color: #6F12FF;
+    background: -webkit-linear-gradient(32deg, #6F12FF 0%, #3112ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*color: #6F12FF;*/
     font-weight: 400;
     padding-top: 30px;
     font-family: 'Raleway', sans-serif;
