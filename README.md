@@ -1,3 +1,6 @@
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f54345ad1df44539af78169c29ad6ccf)](https://app.codacy.com/gh/DangoWeb/Dango-Bots?utm_source=github.com&utm_medium=referral&utm_content=DangoWeb/Dango-Bots&utm_campaign=Badge_Grade_Settings)
+
 <p align="right">
 <a href="https://dangoweb.ga/"><img src="https://dangoweb.ga/favicon.ico" height="40px" /></a></p>
 <br><br>
