@@ -67,8 +67,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "💬 Join Our Discord Server":
-    - "https://discord.gg/WtSFQx4pTU"
+  "💬 Join Our Guilded Server":
+    - "https://dangoweb.ga/guilded"
   "🏠 Home":
     - "https://bots.dangoweb.ga/"
 
