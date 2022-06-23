@@ -25,15 +25,15 @@ permalink: /
     <meta name="apple-mobile-web-app-status-bar-style" content="#303136">
     <meta name="msapplication-navbutton-color" content="#303136">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://bots.dangoweb.ga/">
+    <meta property="og:url" content="https://bots.dangoweb.xyz/">
     <meta property="og:title" content="Dango Bots">
     <meta property="og:description" content="Blazing fast Discord Bot creation">
-    <meta property="og:image" content="https://bots.dangoweb.ga/banner.gif">
+    <meta property="og:image" content="https://bots.dangoweb.xyz/banner.gif">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://bots.dangoweb.ga/">
+    <meta property="twitter:url" content="https://bots.dangoweb.xyz/">
     <meta property="twitter:title" content="Dango Bots">
     <meta property="twitter:description" content="Blazing fast Discord Bot creation">
-    <meta property="twitter:image" content="https://bots.dangoweb.ga/banner.gif">
+    <meta property="twitter:image" content="https://bots.dangoweb.xyz/banner.gif">
     <meta name="description" content="Blazing fast Discord Bot creation">
     <title>Dango Bots | Blazing fast Discord Bot creation</title>
     <style>
@@ -72,7 +72,7 @@ permalink: /
             <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
               <rect id="shape" height="40" width="150" />
               <div id="text">
-                <a href="https://dangoweb.ga/discord"><span class="spot"></span>Discord Server</a>
+                <a href="https://dangoweb.xyz/discord"><span class="spot"></span>Discord Server</a>
               </div>
    	    </svg>
     	  </div>
@@ -141,7 +141,7 @@ permalink: /
 
       <footer class="panel-footer">
         <div class="box share-buttons" style="text-align: center;">
-<img src="https://dangoweb.ga/favicon.ico" style="height:60px;text-align: center;padding-bottom:5px" />&nbsp;
+<img src="https://dangoweb.xyz/favicon.ico" style="height:60px;text-align: center;padding-bottom:5px" />&nbsp;
 </div>
       </footer><br /><br /><br />
     </main>

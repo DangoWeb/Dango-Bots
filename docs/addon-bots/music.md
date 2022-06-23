@@ -78,7 +78,7 @@ Response: Plays the Music, then sends the Play Embed
 > *User: zplay jazz*
 
 > *Bot:*
-> ![musicplay](https://bots.dangoweb.ga/assets/images/musicplay.png)
+> ![musicplay](https://bots.dangoweb.xyz/assets/images/musicplay.png)
 
 ## Possible Errors
 
@@ -95,7 +95,7 @@ Response: Plays the Music, then sends the Play Embed
 > *Console: ERROR*
 
 > *Bot:*
-> ![musicnotfound](https://bots.dangoweb.ga/assets/images/musicnotfound.png)
+> ![musicnotfound](https://bots.dangoweb.xyz/assets/images/musicnotfound.png)
 
 ### When you are not in a voice channel:
 
@@ -110,7 +110,7 @@ Response: Plays the Music, then sends the Play Embed
 > *Console: ERROR*
 
 > *Bot:*
-> ![musicjoin](https://bots.dangoweb.ga/assets/images/musicjoin.png)
+> ![musicjoin](https://bots.dangoweb.xyz/assets/images/musicjoin.png)
 
 ### When the API is outdated:
 

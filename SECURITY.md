@@ -11,4 +11,4 @@
 
 ## Reporting a Vulnerability
 
-Go to our website, **[https://bots.dangoweb.ga/](https://bots.dangoweb.ga/)**, and click "Discord Server". You can join our Discord Server to create a support ticket and report a vulnerability in our website, bots, system, or API.
+Go to our website, **[https://bots.dangoweb.xyz/](https://bots.dangoweb.xyz/)**, and click "Discord Server". You can join our Discord Server to create a support ticket and report a vulnerability in our website, bots, system, or API.
